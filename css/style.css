@@ -1,0 +1,36 @@
+﻿ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+.nav-style {
+    border-top: 4px solid #f8f9fa;
+    transition: border-top 0.3s;
+}
+
+.nav-style:hover {
+    border-top: 4px solid purple;
+}
+
+.nav-style.active {
+    border-top: 4px solid purple;
+}
