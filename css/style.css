@@ -47,3 +47,14 @@ nav .navbar-nav li.nav-item a.nav-item.nav-link:hover {
     border: 1px solid #444;
 }
 
+#canvas{
+    max-width:1000px;
+    margin:auto;
+}
+
+.img-responsive {
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+    display:block;
+}
