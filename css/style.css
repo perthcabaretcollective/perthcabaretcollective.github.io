@@ -54,8 +54,7 @@ nav .navbar-nav li.nav-item a.nav-item.nav-link:hover {
 
 .img-responsive {
     width: 100%;
-    max-width: 100px;
-    height: auto;
+    height:auto;
     display:block;
 }
 
