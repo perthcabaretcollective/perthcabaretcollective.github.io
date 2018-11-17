@@ -70,3 +70,18 @@ p {
 hr {
     border-top: 1px solid #8E5AE0 !important;
 }
+
+.btn-custom {
+    background: #8E5AE0;
+    border-color: #8E5AE0;
+    color: white;
+    font-size: 24px;
+    border-radius: 2px;
+    border-width: 1px;
+}
+
+.btn-custom:hover {
+    background: white;
+    border-color: #8E5AE0;
+    color: #8E5AE0;
+}
