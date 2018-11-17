@@ -54,8 +54,10 @@ nav .navbar-nav li.nav-item a.nav-item.nav-link:hover {
     margin:auto;
 }
 
-.vcenter {
-    position: relative;
+.vertical_center {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
 }
 
 p {

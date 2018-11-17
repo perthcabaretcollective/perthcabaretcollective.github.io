@@ -1,7 +1,7 @@
 var data = [
   {
     "image": "images/shows/moonshinin.jpg",
-    "description": "Moonshinin', 6-8 December",
+    "description": "This award-winning 11 piece, jazz/cabaret band will transport you to 1920's jazz scene, specialising in everything from the sexy and sultry to the downright dirty.<br><br>Featuring two of Perth's most beloved jazz singers, the stunning Jessie Gordon and the always charismatic Mark Turner, as well as the hilarious, the fabulous, the one and only, Cougar Morrison!<br><br>Moonshinin' is all about the songs that make you hot and sweaty whilst still being able to sit comfortably next to your mum.",
     "tickets": "https://www.ptt.wa.gov.au/venues/his-majestys-theatre/whats-on/moonshinin/"
   },
   {
@@ -11,7 +11,7 @@ var data = [
   },
   {
     "image": "images/shows/glamourpuss.jpg",
-    "description": "Glamourpuss, 11-16 Feb 2019",
+    "description": "The WA Cabaret Award Winners of FRINGE WORLD 2018 are back and are taking it to Vegas Baby!!<br><br>If Moulin Rouge & Frank Sinatra had a love child... it would be a glamourpuss.<br><br>Featuring sass diva Cougar Morrison, crooner Mark Turner, the internationally acclaimed PCC showgirls, and nine-piece jazz band - welcome to GLAMOURPUSS!!",
     "tickets": "https://fringeworld.com.au/whats_on/glamourpuss-fw2019"
   }
 ];
