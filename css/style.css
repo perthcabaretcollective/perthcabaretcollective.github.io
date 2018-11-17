@@ -1,27 +1,33 @@
 ﻿li a {
     text-align: center;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+.navbar-brand {
+    float: left;
+    padding: 15px 15px;
+    font-size: 82px;
+    font-family: 'Philosopher', sans-serif;
+    color:white;
 }
 
-
 nav .navbar-nav li.nav-item a.nav-item.nav-link {
-    color: purple;
+    color: white;
 }
 
 nav .navbar-nav li.nav-item a.nav-item.nav-link:hover {
-    color: white;
-    background-color: purple;
+    color: #8E5AE0;
+    background-color: transparent;
     text-decoration: none;
 }
-
-.navbar-brand {
-    color: purple;
-    background-color: white;
-    text-decoration: none;
-}
-
 .navbar-brand:hover {
-    color: white;
-    background-color: purple;
+    color: #8E5AE0;
+    background-color: transparent;
+}
+.navbar-brand {
+    color: WHITE;
+    background-color: transparent;
     text-decoration: none;
 }
 
