@@ -54,10 +54,8 @@ nav .navbar-nav li.nav-item a.nav-item.nav-link:hover {
     margin:auto;
 }
 
-.img-responsive {
-    width: 100%;
-    height:auto;
-    display:block;
+.vcenter {
+    position: relative;
 }
 
 p {
