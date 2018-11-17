@@ -4,16 +4,12 @@
     font-size: 22px;
     letter-spacing: 1px;
 }
-.navbar-brand {
-    float: left;
-    padding: 15px 15px;
-    font-size: 82px;
-    font-family: 'Philosopher', sans-serif;
-    color:white;
-}
 
 nav .navbar-nav li.nav-item a.nav-item.nav-link {
     color: white;
+}
+#header{
+    padding:70px;
 }
 
 nav .navbar-nav li.nav-item a.nav-item.nav-link:hover {
@@ -29,6 +25,11 @@ nav .navbar-nav li.nav-item a.nav-item.nav-link:hover {
     color: WHITE;
     background-color: transparent;
     text-decoration: none;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 30px !important;
+    height: 70px !important;
+    line-height:30px !important;
+    text-align: center;
 }
 
 .icon-bar {
