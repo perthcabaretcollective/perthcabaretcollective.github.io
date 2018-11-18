@@ -6,7 +6,7 @@ for (i = 0; i < data.length; i++) {
     var showImage = data[i].image;
     var showDesc = data[i].description;
     var showTickets = data[i].tickets;
-    shows = shows + "<div class=\"row\"><div class=\"col-md-6\"><img src=\"" + showImage + "\" class=\"img-responsive\"></div><div class=\"col-md-6\"><p>" + showDesc + "</p ><p><a href = \"" + showTickets + "\" target=\"_blank\" class=\"btn btn-custom\" role=\"button\"> Tickets</a></p></div></div ><hr/>";
+    shows = shows + "<div class=\"row\"><div class=\"col-md-5\"><img src=\"" + showImage + "\" class=\"img-responsive\"></div><div class=\"col-md-7\"><p>" + showDesc + "</p ><p><a href = \"" + showTickets + "\" target=\"_blank\" class=\"btn btn-lg btn-custom\" role=\"button\"> Tickets</a></p></div></div ><hr/>";
 
 }
 showPage.innerHTML = shows;
