@@ -85,3 +85,8 @@ hr {
     border-color: #8E5AE0;
     color: #8E5AE0;
 }
+
+#logo {
+    max-height: 115px;
+    max-width: 100%;
+}
