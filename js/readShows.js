@@ -1,6 +1,9 @@
 ﻿console.log(dataShows) // {"a" : "b", "c" : "d"}
 var showPage = document.getElementById("showPage");
+var pastShowPage = document.getElementById("pastShowPage");
+
 var shows = "<br>";
+var pastShows = "<br>";
 
 /*TODO
  * var pastShowPage
@@ -9,6 +12,8 @@ var shows = "<br>";
  *  if date past, add to past, if date future, add to future
  */
  dataShows.sort(function (a, b) { return a.startDate - b.startDate });
+var now = new Date();
+now.setHours(0, 0, 0, 0);
 
 var i;
 for (i = 0; i < dataShows.length; i++) {
@@ -18,16 +23,16 @@ for (i = 0; i < dataShows.length; i++) {
     var showImage = dataShows[i].image;
     var showDesc = dataShows[i].description;
     var showTickets = dataShows[i].tickets;
-    var showStartDate = dataShows[i].startDate;
-    var showEndDate = dataShows[i].endDate;
+    var showStartDate = dataShows[i].startDate.toDateString();
+    var showEndDate = dataShows[i].endDate.toDateString();
 
-    shows = shows + "<div class=\"row\">\
-<div class=\"col-md-6\">\
+    var newShow = "<div class=\"row\">\
+<div class=\"col-md-5\">\
 <img src=\"" + showImage + "\" class=\"img-responsive\">\
 </div>\
-<div class=\"col-md-6\">\
+<div class=\"col-md-7\">\
         <h1>" + showTitle + "</h1>\
-        <h3>" + showStartDate + "</h3>\
+        <h3>" + showStartDate + " - " + showEndDate + "</h3>\
         <h4><a href=\"" + showVenueLink + "\">" + showVenue + "</a></h4 >\
         <br>\
         <button type=\"button\" class=\"btn btn-custom\" data-toggle=\"modal\" data-target=\"#" + i + "Modal\">More info</button>\
@@ -52,6 +57,13 @@ for (i = 0; i < dataShows.length; i++) {
         </div>\
     </div>\
 </div><hr/>";
-
+    if (showEndDate < now) {
+        pastShows = pastShows + newShow;
+        console.log("show in the past");
+    } else {
+        shows = shows + newShow;
+    }
 }
 showPage.innerHTML = shows;
+pastShowPage.innerHTML = pastShows;
+
