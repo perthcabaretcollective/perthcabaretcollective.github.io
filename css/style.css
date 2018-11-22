@@ -48,9 +48,43 @@ nav .navbar-nav li.nav-item a.nav-item.nav-link, nav .navbar-nav li.nav-item a.n
     border: 1px solid #444;
 }
 
-#canvas{
-    max-width:1170px;
-    margin:auto;
+html, body {
+    height: 100%;
+}
+
+#wrap {
+    min-height: 80%;
+}
+
+#main {
+    overflow: auto;
+    max-width: 1170px;
+    margin: auto;
+    padding-bottom: 70px; /* this needs to be bigger than footer height*/
+}
+
+.footer {
+    text-align: center;
+    position: relative;
+    margin-top: -70px; /* negative value of footer height */
+    height: 70px;
+    clear: both;
+    padding-top: 20px;
+}
+
+.foot-titles, .foot-titles:visited {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+    .foot-titles:hover {
+        color: #8E5AE0;
+        text-decoration: none;
+    }
+
+.modal-body p {
+    color: black;
 }
 
 p {
@@ -85,24 +119,3 @@ hr {
     max-width: 95%;
 }
 
-.footer {
-    text-align: center;
-    padding: 2rem 0;
-    padding-bottom: 2rem;
-    padding-bottom: 1rem;
-}
-
-.foot-titles, .foot-titles:visited {
-    color: white;
-    font-size:18px;
-    text-decoration: none;
-}
-
-    .foot-titles:hover {
-        color: #8E5AE0;
-        text-decoration: none;
-    }
-
-.modal-body p{
-    color: black;
-}
