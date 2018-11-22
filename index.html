@@ -10,45 +10,84 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body background="images/noisy_net/edited.png">
-        <nav class="navbar" id="header">
-            <div class="container">
-                <div class="navbar-header">
-                    <a class="navbar-brand nav-style" id="logo" href="index.html">
-                        <img id="logo" src="images/4x/logo.png" alt="PERTH CABARET COLLECTIVE">
-                    </a>
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navMenu">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
+    <nav class="navbar" id="header">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand nav-style" id="logo" href="index.html">
+                    <img id="logo" src="images/4x/logo.png" alt="PERTH CABARET COLLECTIVE">
+                </a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navMenu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
 
-                <div class="collapse navbar-collapse" id="navMenu">
-                    <ul class="nav navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-item nav-link nav-style active" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-item nav-link nav-style" href="about.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-item nav-link nav-style" href="shows.html">Shows</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-item nav-link nav-style" href="listen.html">Listen</a>
-                        </li>
-                    </ul>
-                </div>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-item nav-link nav-style active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item nav-link nav-style" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item nav-link nav-style" href="shows.html">Shows</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item nav-link nav-style" href="media.html">Media</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item nav-link nav-style" href="contact.html">Contact</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
-        <div id="canvas">
-            <div class="container">
-                <hr>
-                <img class="img-responsive" src="images/shows/glamourpuss.jpg" alt="home">
-            </div>
-        
+        </div>
+    </nav>
+    <div id="canvas">
+        <div class="container">
+            <hr>
+            <img class="img-responsive" src="images/shows/glamourpuss.jpg" alt="home">
         </div>
 
+    </div>
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <ul class="list-inline">
+                <li class="list-inline-item">
+                    <a class="foot-titles" data-toggle="modal" href="" data-target="#about">About</a>
+                </li>
+                <li class="footer-menu-divider list-inline-item">⋅</li>
+                <li class="list-inline-item">
+                    <a class="foot-titles" data-toggle="modal" href="" data-target="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div id="about" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">About</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            Summary about the project<br />Created by Cam, Dan, Harry, Thai - students of
+                            CITS3200
+                            UWA 2018, directed by Associate Professor Peter Henry
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+    </footer>
+
 </body>
+
 
 </html>
