@@ -24,7 +24,7 @@ var dataShows = [
     "description": "The WA Cabaret Award Winners of FRINGE WORLD 2018 are back and are taking it to Vegas Baby!!<br><br>If Moulin Rouge & Frank Sinatra had a love child... it would be a glamourpuss.<br><br>Featuring sass diva Cougar Morrison, crooner Mark Turner, the internationally acclaimed PCC showgirls, and nine-piece jazz band - welcome to GLAMOURPUSS!!",
       "tickets": "https://fringeworld.com.au/whats_on/glamourpuss-fw2019",
       "dates": "11-16 February 2019",
-      "venue": "Downstairs at The Maj",
+      "venue": "The Edith Spiegeltent at Yagan Square",
       "venueLink": "https://fringeworld.com.au/whats_on/venues/the-edith-spiegeltent-at-yagan-square"
 
   }
