@@ -14,7 +14,7 @@ var pastShows = "<br>";
  dataShows.sort(function (a, b) { return a.startDate - b.startDate });
 var now = new Date();
 now.setHours(0, 0, 0, 0);
-
+var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 var i;
 for (i = 0; i < dataShows.length; i++) {
     var showTitle = dataShows[i].title;
@@ -25,7 +25,13 @@ for (i = 0; i < dataShows.length; i++) {
     var showTickets = dataShows[i].tickets;
     var showStartDate = dataShows[i].startDate;
     var showEndDate = dataShows[i].endDate;
+    var showDates;
 
+    if (showStartDate.toDateString() == showEndDate.toDateString()) {
+        showDates = showEndDate.getDate() + " " + months[showEndDate.getMonth()] + " " + showEndDate.getFullYear();
+    } else {
+        showDates = showStartDate.getDate() + "-" + showEndDate.getDate() + " " + months[showEndDate.getMonth()] + " " + showEndDate.getFullYear();
+    }
 
     if (showEndDate < now) {
         pastShows = pastShows + "<div class=\"row\">\
@@ -34,7 +40,7 @@ for (i = 0; i < dataShows.length; i++) {
 </div>\
 <div class=\"col-md-7\">\
         <h1>" + showTitle + "</h1>\
-        <h3>" + showStartDate.toDateString() + " - " + showEndDate.toDateString() + "</h3>\
+        <h3>" + showDates + "</h3>\
         <h4><a href=\"" + showVenueLink + "\">" + showVenue + "</a></h4 >\
         <br>\
         <button type=\"button\" class=\"btn btn-custom\" data-toggle=\"modal\" data-target=\"#" + i + "Modal\">More info</button>\
@@ -58,14 +64,14 @@ for (i = 0; i < dataShows.length; i++) {
     </div>\
 </div><hr/>";
     }
-    else {
+    else { //remove ticket link
         shows = shows + "<div class=\"row\">\
 <div class=\"col-md-5\">\
 <img src=\"" + showImage + "\" class=\"img-responsive\">\
 </div>\
 <div class=\"col-md-7\">\
         <h1>" + showTitle + "</h1>\
-        <h3>" + showStartDate.toDateString() + " - " + showEndDate.toDateString() + "</h3>\
+        <h3>" + showDates + "</h3>\
         <h4><a href=\"" + showVenueLink + "\">" + showVenue + "</a></h4 >\
         <br>\
         <button type=\"button\" class=\"btn btn-custom\" data-toggle=\"modal\" data-target=\"#" + i + "Modal\">More info</button>\
@@ -89,7 +95,7 @@ for (i = 0; i < dataShows.length; i++) {
     </div >\
         </div>\
     </div>\
-</div><hr/>";;
+</div><hr/>";
     }
     
     

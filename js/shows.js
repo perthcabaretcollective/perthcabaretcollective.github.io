@@ -36,7 +36,7 @@ var dataShows = [
         "image": "images/shows/kingSt.jpg",
       "description": "The four-time award winning Perth Cabaret Collective are coming to King Street Corner Pocket. This 10 piece, jazz/cabaret band will transport you to 1920\'s jazz scene, specialising in everything from the sexy and sultry to the down right dirty. This one off performance is set to be a highlight of the festival. \"Perth is fortunate indeed to have such leaders in jazz music in its midst.\" 5-Stars Fringefeed, Fringeworld 2018.",
         "tickets": "https://fringeworld.com.au/whats_on/glamourpuss-fw2019",
-        "startDate": new Date("2018, 01, 07"),
+        "startDate": new Date("2018, 07, 07"),
         "endDate": new Date("2018, 07, 07"),
         "venue": "Downstairs at The Maj",
         "venueLink": "https://www.ptt.wa.gov.au/venues/his-majestys-theatre/discover/downstairs-at-the-maj/"
