@@ -1,5 +1,6 @@
-﻿li a {
+﻿a {
     text-align: center;
+    text-decoration: none !important;
     font-family: 'Philosopher', sans-serif;
     font-size: 22px;
     letter-spacing: 1px;
@@ -11,27 +12,19 @@
 }
 
 
-nav .navbar-nav li.nav-item a.nav-item.nav-link {
+nav .navbar-nav li.nav-item a.nav-item.nav-link, nav .navbar-nav li.nav-item a.nav-item.nav-link:visited{
     color: white;
-    transition: color .2s ease-out
+    transition: color .2s ease-out;
+    background-color: transparent;
+    text-decoration: none;
 }
-
+    nav .navbar-nav li.nav-item a.nav-item.nav-link:hover, nav .navbar-nav li.nav-item a.nav-item.nav-link.nav-style.active {
+        color: #8E5AE0;
+    }
     nav .navbar-nav li.nav-item a.nav-item.nav-link.nav-style.active {
         color: #8E5AE0;
         border-bottom: 2px solid #8E5AE0;
     }
-
-    nav .navbar-nav li.nav-item a.nav-item.nav-link:hover {
-        color: #8E5AE0;
-        background-color: transparent;
-        text-decoration: none;
-    }
-    nav .navbar-nav li.nav-item a.nav-item.nav-link:visited {
-        color: white;
-        background-color: transparent;
-        text-decoration: none;
-    }
-
 
 .navbar-brand {
     color: WHITE;
@@ -99,7 +92,7 @@ hr {
     padding-bottom: 1rem;
 }
 
-.foot-titles{
+.foot-titles, .foot-titles:visited {
     color: white;
     text-decoration: none;
 }
@@ -108,8 +101,7 @@ hr {
         color: #8E5AE0;
         text-decoration: none;
     }
-       
-    .foot-titles:visited {
-        color: #8E5AE0;
-        text-decoration: none;
-    }
+
+.modal-body p{
+    color: black;
+}
