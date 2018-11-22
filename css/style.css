@@ -133,20 +133,26 @@ hr {
 }
 
 /*Shows navtab*/
-nav .nav-tabs {
-    color: white;
-    transition: color .2s ease-out;
-    background-color: transparent;
-    text-decoration: none;
+.nav-tabs {
+    border-bottom: 1px solid #8E5AE0 !important;
 }
 
-    nav .navbar-nav li.nav-item a.nav-item.nav-link:hover, nav .navbar-nav li.nav-item a.nav-item.nav-link.nav-style.active {
-        color: #8E5AE0;
+    .nav-tabs > li.active > a {
+        background-color: transparent !important;
+        border: none !important;
+        color: #8E5AE0 !important;
     }
 
-    nav .navbar-nav li.nav-item a.nav-item.nav-link.nav-style.active {
+    .nav-tabs > li > a {
+        color: white;
+        background-color: transparent;
+        border: none !important;
+    }
+    .nav-tabs > li > a:hover {
         color: #8E5AE0;
-        border-bottom: 2px solid #8E5AE0;
+        background-color: transparent !important;
+        border: none !important;
+        text-decoration:none!important;
     }
 
 
