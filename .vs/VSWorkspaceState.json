@@ -1,11 +1,12 @@
 {
   "ExpandedNodes": [
     "",
+    "\\bootstrap",
     "\\css",
     "\\images",
     "\\images\\4x",
     "\\js"
   ],
-  "SelectedNode": "\\js\\readShows.js",
+  "SelectedNode": "\\bootstrap\\bootstrap.min.css",
   "PreviewInSolutionExplorer": false
 }
