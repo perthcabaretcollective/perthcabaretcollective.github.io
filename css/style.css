@@ -5,30 +5,34 @@
     letter-spacing: 1px;
 }
 
+#header {
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+
 nav .navbar-nav li.nav-item a.nav-item.nav-link {
     color: white;
     transition: color .2s ease-out
 }
 
-nav .navbar-nav li.nav-item a.nav-item.nav-link.nav-style.active {
-    color: #8E5AE0;
-    border-bottom: 2px solid #8E5AE0;
-}
+    nav .navbar-nav li.nav-item a.nav-item.nav-link.nav-style.active {
+        color: #8E5AE0;
+        border-bottom: 2px solid #8E5AE0;
+    }
 
-#header{
-    padding-top:70px;
-    padding-bottom:30px;
-}
+    nav .navbar-nav li.nav-item a.nav-item.nav-link:hover {
+        color: #8E5AE0;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    nav .navbar-nav li.nav-item a.nav-item.nav-link:visited {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+    }
 
-nav .navbar-nav li.nav-item a.nav-item.nav-link:hover {
-    color: #8E5AE0;
-    background-color: transparent;
-    text-decoration: none;
-}
-.navbar-brand:hover {
-    color: #8E5AE0;
-    background-color: transparent;
-}
+
 .navbar-brand {
     color: WHITE;
     background-color: transparent;
@@ -41,6 +45,8 @@ nav .navbar-nav li.nav-item a.nav-item.nav-link:hover {
     transition: color .2s ease-out
 }
 
+   
+
 .icon-bar {
     display: block;
     width: 22px;
@@ -52,12 +58,6 @@ nav .navbar-nav li.nav-item a.nav-item.nav-link:hover {
 #canvas{
     max-width:1170px;
     margin:auto;
-}
-
-.vertical_center {
-    display: inline-block;
-    vertical-align: middle;
-    float: none;
 }
 
 p {
@@ -80,11 +80,12 @@ hr {
     border-width: 1px;
 }
 
-.btn-custom:hover {
-    background: white;
-    border-color: #8E5AE0;
-    color: #8E5AE0;
-}
+    .btn-custom:hover {
+        background: white;
+        border-color: #8E5AE0;
+        color: #8E5AE0;
+    }
+
 
 #logo {
     max-height: 115px;
@@ -92,8 +93,23 @@ hr {
 }
 
 .footer {
-    background-color: rgba(238, 238, 238, 0.9);
+    text-align: center;
     padding: 2rem 0;
     padding-bottom: 2rem;
     padding-bottom: 1rem;
 }
+
+.foot-titles{
+    color: white;
+    text-decoration: none;
+}
+
+    .foot-titles:hover {
+        color: #8E5AE0;
+        text-decoration: none;
+    }
+       
+    .foot-titles:visited {
+        color: #8E5AE0;
+        text-decoration: none;
+    }
