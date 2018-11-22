@@ -6,6 +6,7 @@
     letter-spacing: 1px;
 }
 
+
 #header {
     padding-top: 70px;
     padding-bottom: 30px;
@@ -72,13 +73,13 @@ html, body {
     padding-top: 20px;
 }
 
-.foot-titles, .foot-titles:visited {
+.foot-titles, .foot-titles:visited, p a, p a:visited {
     color: white;
     font-size: 18px;
     text-decoration: none;
 }
 
-    .foot-titles:hover {
+    .foot-titles:hover, p a:hover {
         color: #8E5AE0;
         text-decoration: none;
     }
@@ -129,5 +130,7 @@ hr {
     color: white;
 }
 
-
+.modal-title{
+    color:black;
+}
 

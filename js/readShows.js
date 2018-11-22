@@ -16,9 +16,30 @@ for (i = 0; i < dataShows.length; i++) {
 <img src=\"" + showImage + "\" class=\"img-responsive\">\
 </div>\
 <div class=\"col-md-7\">\
-<p>" + showDesc + "</p >\
-<p><a href = \"" + showTickets + "\" target=\"_blank\" class=\"btn btn-lg btn-custom\" role=\"button\"> Tickets</a></p>\
-</div></div ><hr/>";
+        <h1>" + showTitle + "</h1>\
+        <h3>" + showDates + "</h3>\
+        <h4><a href=\"" + showVenueLink + "\">" + showVenue + "</a></h4 >\
+        <br>\
+        <button type=\"button\" class=\"btn btn-custom\" data-toggle=\"modal\" data-target=\"#" + i + "Modal\">More info</button>\
+        <div class=\"modal fade\" id=\"" + i + "Modal\" role=\"dialog\">\
+        <div class=\"modal-dialog\">\
+            <div class=\"modal-content\">\
+            <div class=\"modal-header\">\
+                <button type=\"button\" class=\"close\" data-dismiss=\"modal\">&times;</button>\
+                <h4 class=\"modal-title\">"+ showTitle +"</h4>\
+            </div>\
+            <div class=\"modal-body\">\
+                <p>" + showDesc + "</p >\
+<p><a href = \"" + showTickets + "\" target=\"_blank\" class=\"btn btn-custom\" role=\"button\"> Tickets</a></p>\
+</div>\
+    <div class=\"modal-footer\">\
+                <button type=\"button\" class=\"btn btn-custom\" data-dismiss=\"modal\">Close</button>\
+            </div>\
+    </div >\
+    </div >\
+        </div>\
+    </div>\
+</div><hr/>";
 
 }
 showPage.innerHTML = shows;
