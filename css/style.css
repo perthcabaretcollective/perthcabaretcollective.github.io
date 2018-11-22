@@ -119,3 +119,15 @@ hr {
     max-width: 95%;
 }
 
+/*ICONS*/
+.fa {
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    background:#8E5AE0;
+    margin: 15px 2px;
+    color: white;
+}
+
+
+
