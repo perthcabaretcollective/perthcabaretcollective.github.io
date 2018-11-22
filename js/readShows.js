@@ -12,10 +12,10 @@ for (i = 0; i < dataShows.length; i++) {
     var showDates = dataShows[i].dates;
 
     shows = shows + "<div class=\"row\">\
-<div class=\"col-md-5\">\
+<div class=\"col-md-6\">\
 <img src=\"" + showImage + "\" class=\"img-responsive\">\
 </div>\
-<div class=\"col-md-7\">\
+<div class=\"col-md-6\">\
         <h1>" + showTitle + "</h1>\
         <h3>" + showDates + "</h3>\
         <h4><a href=\"" + showVenueLink + "\">" + showVenue + "</a></h4 >\
