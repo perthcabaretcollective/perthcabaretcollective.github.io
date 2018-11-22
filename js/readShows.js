@@ -1,6 +1,6 @@
 ﻿console.log(dataShows) // {"a" : "b", "c" : "d"}
 var showPage = document.getElementById("showPage");
-var shows = "<hr />";
+var shows = "<br>";
 var i;
 for (i = 0; i < dataShows.length; i++) {
     var showTitle = dataShows[i].title;
