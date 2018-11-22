@@ -21,6 +21,8 @@ for (i = 0; i < dataShows.length; i++) {
         <h4><a href=\"" + showVenueLink + "\">" + showVenue + "</a></h4 >\
         <br>\
         <button type=\"button\" class=\"btn btn-custom\" data-toggle=\"modal\" data-target=\"#" + i + "Modal\">More info</button>\
+        <br><br>\
+        <p><a href = \"" + showTickets + "\" target=\"_blank\" class=\"btn btn-custom\" role=\"button\"> Tickets</a></p>\
         <div class=\"modal fade\" id=\"" + i + "Modal\" role=\"dialog\">\
         <div class=\"modal-dialog\">\
             <div class=\"modal-content\">\
