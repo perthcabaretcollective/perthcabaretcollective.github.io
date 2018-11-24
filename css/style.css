@@ -64,6 +64,11 @@ p {
     color:white;
     font-size:20px;
 }
+.form-group {
+    font-family: 'Philosopher', sans-serif;
+    color:white;
+    font-size: 15px;
+}
 
 hr {
     border-top: 1px solid #8E5AE0 !important;
