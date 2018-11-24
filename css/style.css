@@ -163,13 +163,14 @@ hr {
   height: 100%;
 }
 
-#instaBox, #promo{
-  position: relative;
-  float: left;
+#instaBox{
+  vertical-align: center;
+  align-items: center;
   text-align: center;
-  height:100%;
+  height: 100vh !important;
   overflow-y: auto;
 }
+
 
 
 /*CSS TO CHANGE COLLAPSE BREAKPOINT STARTS HERE*/
