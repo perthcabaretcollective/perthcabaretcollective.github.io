@@ -164,8 +164,8 @@ hr {
 }
 
 #instaBox{
-  vertical-align: center;
-  align-items: center;
+  vertical-align: center !important;
+  align-items: center !important;
   text-align: center;
   height: 100vh !important;
   overflow-y: auto;
