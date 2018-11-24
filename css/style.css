@@ -159,6 +159,19 @@ hr {
   padding-bottom: 10px;
 }
 
+.container-fluid, .parent{
+  height: 100%;
+}
+
+#instaBox, #promo{
+  position: relative;
+  float: left;
+  text-align: center;
+  height:100%;
+  overflow-y: auto;
+}
+
+
 /*CSS TO CHANGE COLLAPSE BREAKPOINT STARTS HERE*/
 @media (min-width: 1000px) {
   .navbar.navbar-tall .navbar-nav > li > a {
