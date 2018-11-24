@@ -164,14 +164,12 @@ hr {
   height: 100%;
 }
 
-#instaBox{
+#instaBox, #promo{
   vertical-align: center !important;
   align-items: center !important;
   text-align: center;
   height: 100vh !important;
   overflow-y: auto;
-  border: 3px solid #8E5AE0;
-  border-radius: 1%;
 }
 #instaFeed{
   padding: 12px;
