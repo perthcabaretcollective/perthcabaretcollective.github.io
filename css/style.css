@@ -70,6 +70,7 @@ html, body {
     margin-top: -70px; /* negative value of footer height */
     height: 70px;
     clear: both;
+    color: white !important;
     padding-top: 20px;
 }
 
