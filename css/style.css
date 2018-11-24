@@ -1,17 +1,16 @@
-﻿a {
-    text-align: center;
-    text-decoration: none !important;
-    font-family: 'Philosopher', sans-serif;
-    font-size: 22px;
-    letter-spacing: 1px;
+
+html, body {
+    height: 100%;
 }
-
-
 #header {
     padding-top: 70px;
     padding-bottom: 30px;
 }
 
+#logo {
+    max-height: 115px;
+    max-width: 95%;
+}
 
 nav .navbar-nav li.nav-item a.nav-item.nav-link, nav .navbar-nav li.nav-item a.nav-item.nav-link:visited{
     color: white;
@@ -48,11 +47,6 @@ nav .navbar-nav li.nav-item a.nav-item.nav-link, nav .navbar-nav li.nav-item a.n
     border-radius: 1px;
     border: 1px solid white;
 }
-
-html, body {
-    height: 100%;
-}
-
 #wrap {
     min-height: 80%;
 }
@@ -62,31 +56,6 @@ html, body {
     max-width: 1170px;
     margin: auto;
     padding-bottom: 70px; /* this needs to be bigger than footer height*/
-}
-
-.footer {
-    text-align: center;
-    position: relative;
-    margin-top: -70px; /* negative value of footer height */
-    height: 70px;
-    clear: both;
-    color: white !important;
-    padding-top: 20px;
-}
-
-.foot-titles, .foot-titles:visited, p a, p a:visited {
-    color: white;
-    font-size: 18px;
-    text-decoration: none;
-}
-
-    .foot-titles:hover, p a:hover {
-        color: #8E5AE0;
-        text-decoration: none;
-    }
-
-.modal-body p {
-    color: black;
 }
 
 p {
@@ -99,6 +68,14 @@ p {
 hr {
     border-top: 1px solid #8E5AE0 !important;
 }
+a {
+    text-align: center;
+    text-decoration: none !important;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
 
 .btn-custom {
     background: #8E5AE0;
@@ -113,27 +90,7 @@ hr {
         color: #8E5AE0;
     }
 
-
-#logo {
-    max-height: 115px;
-    max-width: 95%;
-}
-
-/*ICONS*/
-.fa {
-    padding: 10px;
-    text-align: center;
-    text-decoration: none;
-    background:#8E5AE0;
-    margin: 15px 2px;
-    color: white;
-}
-
-.modal-title{
-    color:black;
-}
-
-/*Shows navtab*/
+/*Shows future/past tabs*/
 .nav-tabs {
     border-bottom: 1px solid #8E5AE0 !important;
 }
@@ -164,7 +121,7 @@ hr {
   height: 100%;
 }
 
-#instaBox, #promo{
+#instaBox, #promo, #youtubeFeed{
   vertical-align: center !important;
   align-items: center !important;
   text-align: center;
@@ -173,6 +130,47 @@ hr {
 }
 #instaFeed{
   padding: 12px;
+}
+
+/*MODALS*/
+.footer {
+    text-align: center;
+    position: relative;
+    margin-top: -70px; /* negative value of footer height */
+    height: 70px;
+    clear: both;
+    color: white !important;
+    padding-top: 20px;
+}
+
+.foot-titles, .foot-titles:visited, p a, p a:visited {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+    .foot-titles:hover, p a:hover {
+        color: #8E5AE0;
+        text-decoration: none;
+    }
+
+.modal-body p {
+    color: black;
+}
+
+
+/*Footer ICONS*/
+.fa {
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    background:#8E5AE0;
+    margin: 15px 2px;
+    color: white;
+}
+
+.modal-title{
+    color:black;
 }
 
 
