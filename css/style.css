@@ -159,7 +159,7 @@ hr {
   padding-bottom: 10px;
 }
 
-.container-fluid, .parent{
+.container, .parent{
   height: 100%;
 }
 
@@ -169,6 +169,8 @@ hr {
   text-align: center;
   height: 100vh !important;
   overflow-y: auto;
+  border: 3px solid #8E5AE0;
+  border-radius: 1%;
 }
 #instaFeed{
   padding: 12px;
