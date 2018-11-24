@@ -3,7 +3,7 @@ var showPage = document.getElementById("showPage");
 var pastShowPage = document.getElementById("pastShowPage");
 
 var shows = "<br>";
-var pastShows = "<br>";
+var pastShows = "";
 
 /*TODO
  * var pastShowPage
@@ -34,7 +34,7 @@ for (i = 0; i < dataShows.length; i++) {
     }
 
     if (showEndDate < now) {
-        pastShows = pastShows + "<div class=\"row\">\
+        pastShows =  "<div class=\"row\">\
 <div class=\"col-md-5\">\
 <img src=\"" + showImage + "\" class=\"img-responsive\">\
 </div>\
@@ -62,7 +62,7 @@ for (i = 0; i < dataShows.length; i++) {
     </div >\
         </div>\
     </div>\
-</div><hr/>";
+</div><hr/>" + pastShows;
     }
     else { //remove ticket link
         shows = shows + "<div class=\"row\">\
@@ -97,9 +97,9 @@ for (i = 0; i < dataShows.length; i++) {
     </div>\
 </div><hr/>";
     }
-    
-    
+
+
 }
+var pastShows = "<br>" + pastShows;
 showPage.innerHTML = shows;
 pastShowPage.innerHTML = pastShows;
-

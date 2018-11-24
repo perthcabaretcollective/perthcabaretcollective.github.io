@@ -39,7 +39,7 @@ nav .navbar-nav li.nav-item a.nav-item.nav-link, nav .navbar-nav li.nav-item a.n
     transition: color .2s ease-out
 }
 
-   
+
 
 .icon-bar {
     display: block;
@@ -155,6 +155,9 @@ hr {
         text-decoration:none!important;
     }
 
+.row{
+  padding-bottom: 10px;
+}
 
 /*CSS TO CHANGE COLLAPSE BREAKPOINT STARTS HERE*/
 @media (min-width: 1000px) {
