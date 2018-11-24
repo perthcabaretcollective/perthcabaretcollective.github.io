@@ -11,7 +11,6 @@
     <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
 </head>
 <body background="images/noisy_net/edited.png">
-  <main>
     <nav class="navbar" id="header">
         <div class="container">
             <div class="navbar-header">
@@ -144,7 +143,6 @@
 
 
         </footer>
-</main>
 </body>
 
 </html>
