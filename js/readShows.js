@@ -5,12 +5,7 @@ var pastShowPage = document.getElementById("pastShowPage");
 var shows = "<br>";
 var pastShows = "";
 
-/*TODO
- * var pastShowPage
- * sort by start date - split date into start date and end date
- *  var new show = html string
- *  if date past, add to past, if date future, add to future
- */
+
  dataShows.sort(function (a, b) { return a.startDate - b.startDate });
 var now = new Date();
 now.setHours(0, 0, 0, 0);
