@@ -133,6 +133,15 @@ a {
   height: 100vh !important;
   overflow-y: auto;
 }
+#aboutFeed{
+  vertical-align: center !important;
+  align-items: center !important;
+  text-align: center;
+  height: 50vh !important;
+  overflow-y: auto;
+}
+
+
 #instaFeed{
   padding: 12px;
 }
