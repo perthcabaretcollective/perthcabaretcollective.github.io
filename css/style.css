@@ -126,7 +126,7 @@ a {
   height: 100%;
 }
 
-#instaBox, #promo, #youtubeFeed{
+#instaBox, #promo, #youtubeFeed, #galleryFeed{
   vertical-align: center !important;
   align-items: center !important;
   text-align: center;
