@@ -1,4 +1,12 @@
-var youtubeID = [
-  'iAZXiIuYZTk', //slow down
-  'QMrdNrkHeuc', //blues in the night
+var galleryID = [
+  '1',
+  '2',
+  '3',
+  '4',
+  '5',
+  '6',
+  '7',
+  '8',
+  '9',
+  '10',
 ];

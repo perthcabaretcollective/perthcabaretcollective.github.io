@@ -1,5 +1,5 @@
 var youtubeFeed = document.getElementById("youtubeFeed");
-var youtubeString = "<hr>";
+var youtubeString = "";
 var iiii;
 
 for(iiii = 0; iiii< youtubeID.length; iiii++){
