@@ -146,6 +146,10 @@ a {
   padding: 12px;
 }
 
+.gallery_product
+{
+    margin-bottom: 30px;
+}
 /*MODALS*/
 .footer {
     text-align: center;
