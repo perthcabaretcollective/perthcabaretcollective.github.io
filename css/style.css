@@ -11,6 +11,9 @@ html, body {
     max-height: 115px;
     max-width: 95%;
 }
+.navbar-nav {
+    float: right !important;
+}
 
 nav .navbar-nav li.nav-item a.nav-item.nav-link, nav .navbar-nav li.nav-item a.nav-item.nav-link:visited{
     color: white;
