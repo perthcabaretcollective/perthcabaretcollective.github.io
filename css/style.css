@@ -126,7 +126,7 @@ a {
   height: 100%;
 }
 
-#instaBox, #promo, #youtubeFeed, #galleryFeed{
+#instaBox, #promo{
   vertical-align: center !important;
   align-items: center !important;
   text-align: center;
@@ -139,6 +139,19 @@ a {
   text-align: center;
   height: 50vh !important;
   overflow-y: auto;
+}
+#youtubeFeed{
+    vertical-align: center !important;
+    align-items: center !important;
+    text-align: center;
+    height: 340px !important;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap
+}
+
+iframe {
+    padding: 12px;
 }
 
 

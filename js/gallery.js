@@ -8,5 +8,5 @@ var galleryID = [
   '7.jpg',
   '8.jpg',
   '9.jpg',
-  '10.jpg',
+  '10.jpg'
 ];
