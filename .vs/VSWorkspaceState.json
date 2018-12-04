@@ -5,8 +5,9 @@
     "\\css",
     "\\images",
     "\\images\\4x",
-    "\\js"
+    "\\js",
+    "\\js\\read"
   ],
-  "SelectedNode": "\\css\\style.css",
+  "SelectedNode": "\\js\\read\\readInsta.js",
   "PreviewInSolutionExplorer": false
 }

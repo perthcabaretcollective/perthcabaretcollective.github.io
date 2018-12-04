@@ -133,15 +133,15 @@ a {
   vertical-align: center !important;
   align-items: center !important;
   text-align: center;
-  height: 75vh !important;
+  height: 72vh !important;
   overflow-y: auto;
 }
 #aboutFeed{
-  vertical-align: center !important;
-  align-items: center !important;
-  text-align: center;
-  height: 50vh !important;
-  overflow-y: auto;
+    vertical-align: center !important;
+    align-items: center !important;
+    text-align: center;
+    height: 50vh !important;
+    overflow-y: auto;
 }
 #youtubeFeed{
     vertical-align: center !important;
@@ -151,6 +151,12 @@ a {
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap
+}
+#galleryRow{
+    max-width:95%;
+}
+.carousel-inner img {
+    margin: auto;
 }
 
 iframe {
@@ -162,10 +168,6 @@ iframe {
   padding: 12px;
 }
 
-.gallery_product
-{
-    margin-bottom: 30px;
-}
 /*MODALS*/
 .footer {
     text-align: center;
@@ -190,6 +192,10 @@ iframe {
 
 .modal-body p {
     color: black;
+}
+#galleryCarousel{
+    width:80%;
+    margin: 0 auto;
 }
 
 
