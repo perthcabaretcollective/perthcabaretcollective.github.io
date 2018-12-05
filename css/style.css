@@ -197,7 +197,10 @@ iframe {
     width:80%;
     margin: 0 auto;
 }
-
+.aboutPicture{
+  max-height: 40vh !important;
+  padding: 10px !important;
+}
 
 /*Footer ICONS*/
 .fa {
