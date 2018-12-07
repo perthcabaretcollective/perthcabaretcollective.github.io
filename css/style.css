@@ -167,8 +167,9 @@ iframe {
 }
 
 
-#instaFeed{
-  padding: 12px;
+#instaFeed {
+    padding: 12px;
+    -webkit-overflow-scrolling: auto !important;
 }
 
 /*MODALS*/
