@@ -1,5 +1,12 @@
 var galleryID = [
-  '2.jpg',
-  '3.jpg',
-  '4.jpg',
+    '1.jpeg',
+    '3.jpeg',
+    '5.jpeg',
+    '6.jpeg',
+    '10.jpeg',
+    '11.jpeg',
+    '13.png',
+    '14.png',
+
+  
 ];

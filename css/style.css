@@ -204,6 +204,9 @@ iframe {
   max-height: 40vh !important;
   padding: 10px !important;
 }
+.carouselPic{
+    width:100%;
+}
 
 /*Footer ICONS*/
 .fa {
