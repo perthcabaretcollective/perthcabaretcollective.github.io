@@ -141,7 +141,7 @@ a {
     vertical-align: center !important;
     align-items: center !important;
     text-align: center;
-    height: 50vh !important;
+    height: 40vh !important;
     overflow-y: auto;
     -webkit-overflow-scrolling: auto !important;
 }
