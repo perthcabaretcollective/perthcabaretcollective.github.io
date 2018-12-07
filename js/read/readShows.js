@@ -30,7 +30,7 @@ for (i = 0; i < dataShows.length; i++) {
     if (showEndDate < now) {
         pastShows =  "<div class=\"row\">\
 <div class=\"col-md-5\">\
-<img src=\"" + showImage + "\" class=\"img-responsive\">\
+<img src=\"" + showImage + "\" class=\"img-responsive center-block\">\
 </div>\
 <div class=\"col-md-7\">\
         <h1>" + showTitle + "</h1>\
@@ -61,7 +61,7 @@ for (i = 0; i < dataShows.length; i++) {
     else { //remove ticket link
         shows = shows + "<div class=\"row\">\
 <div class=\"col-md-5\">\
-<img src=\"" + showImage + "\" class=\"img-responsive\">\
+<img src=\"" + showImage + "\" class=\"img-responsive center-block\">\
 </div>\
 <div class=\"col-md-7\">\
         <h1>" + showTitle + "</h1>\
