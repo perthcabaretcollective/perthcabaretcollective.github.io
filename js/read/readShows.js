@@ -8,7 +8,6 @@ var pastShows = "";
 
  dataShows.sort(function (a, b) { return a.startDate - b.startDate });
 var now = new Date();
-now.setHours(0, 0, 0, 0);
 var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 var i;
 for (i = 0; i < dataShows.length; i++) {
@@ -21,7 +20,7 @@ for (i = 0; i < dataShows.length; i++) {
     var showStartDate = dataShows[i].startDate;
     var showEndDate = dataShows[i].endDate;
     var showDates;
-
+    
     if (showStartDate.toDateString() == showEndDate.toDateString()) {
         showDates = showEndDate.getDate() + " " + months[showEndDate.getMonth()] + " " + showEndDate.getFullYear();
     } else {
