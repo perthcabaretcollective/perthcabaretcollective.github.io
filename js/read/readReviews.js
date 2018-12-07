@@ -8,7 +8,7 @@ for(iii = 0; iii< reviewData.length; iii++){
   reviewAuthor = reviewData[iii].author;
   reviewStars = reviewData[iii].stars;
 
-  reviews = reviews + "<hr>" + "<i style=\"font-size:28px\">\"" + reviewDesc + "\"</i>" + "<br>" + "<p style=\"font-size:18px\">- " + reviewAuthor + " ";
+  reviews = reviews + "<hr>" + "<i style=\"font-size:24px\">\"" + reviewDesc + "\"</i>" + "<br>" + "<p style=\"font-size:18px\">- " + reviewAuthor + " ";
   for(j = 0; j < reviewStars; j++){
     reviews = reviews + "&#9733";
   }
