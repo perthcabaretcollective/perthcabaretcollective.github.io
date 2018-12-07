@@ -129,28 +129,31 @@ a {
   height: 100%;
 }
 
-#instaBox, #promo{
-  vertical-align: center !important;
-  align-items: center !important;
-  text-align: center;
-  height: 72vh !important;
-  overflow-y: auto;
+#instaBox, #promo {
+    vertical-align: center !important;
+    align-items: center !important;
+    text-align: center;
+    height: 72vh !important;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: auto !important;
 }
-#aboutFeed{
+#aboutFeed {
     vertical-align: center !important;
     align-items: center !important;
     text-align: center;
     height: 50vh !important;
     overflow-y: auto;
+    -webkit-overflow-scrolling: auto !important;
 }
-#youtubeFeed{
+#youtubeFeed {
     vertical-align: center !important;
     align-items: center !important;
     text-align: center;
     height: 340px !important;
     overflow-x: scroll;
     overflow-y: hidden;
-    white-space: nowrap
+    white-space: nowrap;
+    -webkit-overflow-scrolling: auto !important;
 }
 #galleryRow{
     max-width:95%;
