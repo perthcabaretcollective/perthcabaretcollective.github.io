@@ -8,9 +8,9 @@ var galleryID = [
     '11.jpeg',
     '13.png',
     '14.png',
-    '15.png',
-    '16.png',
-    '17.png',
+    '15.PNG',
+    '16.PNG',
+    '17.PNG',
 
 
   
