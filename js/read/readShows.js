@@ -20,9 +20,13 @@ for (i = 0; i < dataShows.length; i++) {
     var showStartDate = dataShows[i].startDate;
     var showEndDate = dataShows[i].endDate;
     var showDates;
-    
+    console.log(showStartDate.getMonth());
     if (showStartDate.toDateString() == showEndDate.toDateString()) {
         showDates = showEndDate.getDate() + " " + months[showEndDate.getMonth()] + " " + showEndDate.getFullYear();
+    } else if (showStartDate.getFullYear() != showEndDate.getFullYear()) {
+        showDates = showStartDate.getDate() + " " + months[showStartDate.getMonth()] + " " + showStartDate.getFullYear() + " - " + showEndDate.getDate() + " " + months[showEndDate.getMonth()] + " " + showEndDate.getFullYear();
+    } else if (showStartDate.getMonth() != showEndDate.getMonth()) {
+        showDates = showStartDate.getDate() + " " + months[showStartDate.getMonth()]  + " - " + showEndDate.getDate() + " " + months[showEndDate.getMonth()] + " " + showEndDate.getFullYear();
     } else {
         showDates = showStartDate.getDate() + "-" + showEndDate.getDate() + " " + months[showEndDate.getMonth()] + " " + showEndDate.getFullYear();
     }
