@@ -15,8 +15,8 @@ var reviewData = [
         "stars": 0
     },
     {
-        "description": "A riot of colour and cheek with an incredible array of acts",
-        "author": "Sunshine in a Tea Cup",
+        "description": "It doesn’t get much better than this.",
+        "author": "Perth Theatregoer",
         "stars": 0
     },
     {
