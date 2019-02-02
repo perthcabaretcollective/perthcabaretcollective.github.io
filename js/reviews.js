@@ -1,7 +1,7 @@
 var reviewData = [
     {
         "description": "A time capsule of wonder",
-        "author": "FRINGE FEED",
+        "author": "Fringefeed",
         "stars": 5
     },
     {
@@ -10,9 +10,9 @@ var reviewData = [
         "stars": 4
     },
     {
-        "description": "The most fun show in town",
-        "author": "Weekend Notes",
-        "stars": 0
+        "description": "A Very Good Variety Show has to be one of the top shows in Fringe.",
+        "author": "Fringefeed",
+        "stars": 5
     },
     {
         "description": "It doesn’t get much better than this.",

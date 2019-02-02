@@ -1,5 +1,6 @@
 var galleryID = [
     //612x408
+    '18.jpg',
     '1.jpeg',
     '15.PNG',
     '3.jpeg',
@@ -13,6 +14,5 @@ var galleryID = [
     '17.PNG',
 
 
-  
-];
 
+];
