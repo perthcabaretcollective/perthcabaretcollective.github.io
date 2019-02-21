@@ -1,5 +1,8 @@
 var galleryID = [
     //612x408
+'19.jnp',
+'20.jnp',
+'21.jnp',
     '18.jpg',
     '1.jpeg',
     '15.PNG',
