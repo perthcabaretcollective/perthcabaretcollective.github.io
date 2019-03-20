@@ -32,14 +32,26 @@ var dataShows = [
 
     },
   {
-        "title": "King Street Corner Pocket Festival",
-        "image": "images/shows/kingSt.jpg",
-      "description": "The four-time award winning Perth Cabaret Collective are coming to King Street Corner Pocket. This 10 piece, jazz/cabaret band will transport you to 1920\'s jazz scene, specialising in everything from the sexy and sultry to the down right dirty. This one off performance is set to be a highlight of the festival. \"Perth is fortunate indeed to have such leaders in jazz music in its midst.\" 5-Stars Fringefeed, Fringeworld 2018.",
-        "tickets": "https://fringeworld.com.au/whats_on/glamourpuss-fw2019",
-      "startDate": new Date("2018-07-07T11:30:00.000Z"),
-      "endDate": new Date("2018-07-07T11:30:00.000Z"),
-        "venue": "Downstairs at The Maj",
-        "venueLink": "https://www.ptt.wa.gov.au/venues/his-majestys-theatre/discover/downstairs-at-the-maj/"
+        "title": "Perth Cabaret Collective take over the Ellington",
+        "image": "images/shows/Ellingtonshow.jpg",
+      "description": "Perth Cabaret Collective has evolved into a sensual all singing, all dancing cabaret troupe of award-winning performers. The band comprises of nine of Perth’s best Jazz musicians with Jessie Gordon and Mark Turner as regular vocalists, complemented by glamorous internationally acclaimed dancers elevating shows to grand heights and transporting audiences into bygone vintage jazz clubs and big band ballrooms.",
+        "tickets": "http://www.ellingtonjazz.com.au/events/category/april/",
+      "startDate": new Date("2019-04-26T11:30:00.000Z"),
+      "endDate": new Date("2019-04-27T11:30:00.000Z"),
+        "venue": "Ellington Jazz Club",
+        "venueLink": "http://www.ellingtonjazz.com.au/"
 
-    }
+    },
+    {
+          "title": "Perth Cabaret Collective at Duke of George",
+          "image": "images/shows/dukeofgeorge.jpg",
+        "description": "Don't miss out on PCC playing at Perth's hottest new jazz venue, The Duke of George. Located on George Street in Fremantle, this beautifully refurbished space is the perfect venue for live music whilst enjoying great food and drink. The band will be joined by Jessie Gordon, Mark Turner and Cougar Morrison.",
+          "tickets": "https://www.moshtix.com.au/v2/event/cabaret-collective/111456?ref=RSS_rss_dukeofgeorge&skin=dukegeorgewa18",
+        "startDate": new Date("2019-03-30T11:30:00.000Z"),
+        "endDate": new Date("2019-03-30T11:30:00.000Z"),
+          "venue": "Duke of George",
+          "venueLink": "https://dukeofgeorge.com.au/"
+
+      },
+
 ];
